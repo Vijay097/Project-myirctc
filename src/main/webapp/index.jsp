@@ -1,20 +1,29 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Welcome to IRCTC Website</h1>
+    <h1>Welcome to IRCTC Website!!</h1>
     <h1>Provide below information to book tickets</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
 
     <label for="name"><b>NAME</b></label>
     <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
+
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    
+
+    <label for="id"><b>ID</b></label>
+    <input type="id" placeholder="Enter ID" name="id" id="id" required>
+
     <hr>
 
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
